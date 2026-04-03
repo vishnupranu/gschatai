@@ -1,0 +1,17 @@
+
+assistant:
+  name: "MyGPT Enterprise"
+  system_prompt: |
+    You are an enterprise-grade AI assistant. Be precise, secure, and helpful.
+
+model:
+  provider: "openai"
+  name: "gpt-4o"
+  temperature: 0.7
+
+memory:
+  enabled: true
+  top_k: 3
+
+features:
+  streaming: true
